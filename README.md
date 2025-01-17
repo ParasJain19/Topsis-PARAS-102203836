@@ -18,20 +18,19 @@ The remaining columns should contain the criteria values for each alternative (r
 ### Step 2: Run the Script
 To run the script, use the following command in the terminal:
 
-python <your-script-name>.py <input-file> <weights> <impacts> <output-file>
-Example:
-python topsis.py data.csv "1,1,1,2,1" "+,+,-,+,-" results.csv
+
+<!-- python topsis.py data.csv "1,1,1,2,1" "+,+,-,+,-" results.csv( agar mereko chalana hai to ) -->
+python -m Topsis-Paras-102203836.topsis data.csv "1,1,1,2,1" "+,+,-,+,-" results.csv
+
 Where:
 
-<your-script-name>.py is the name of the script file (e.g., topsis.py).
+data.csv is your input CSV file (e.g., data.csv).
 
-<input-file> is your input CSV file (e.g., data.csv).
+"1,1,1,2,1" is a comma-separated string of weights for each criterion (e.g., "1,1,1,2,1").
 
-<weights> is a comma-separated string of weights for each criterion (e.g., "1,1,1,2,1").
+"+,+,-,+,-" is a comma-separated string of impacts for each criterion (e.g., "+,+,-,+,-").
 
-<impacts> is a comma-separated string of impacts for each criterion (e.g., "+,+,-,+,-").
-
-<output-file> is the file where the results will be saved (e.g., results.csv).
+results.csv is the file where the results will be saved (e.g., results.csv).
 
 ### Step 3: Output
 The output will be a CSV file with the calculated TOPSIS scores and ranks for each alternative.
