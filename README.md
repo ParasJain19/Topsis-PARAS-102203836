@@ -14,12 +14,6 @@ The input data should be a CSV file containing the following columns:
 
 The first column should contain the fund names.
 The remaining columns should contain the criteria values for each alternative (row).
-Example CSV format:
-
-Fund Name,P1,P2,P3,P4,P5
-M1,0.67,0.45,6.3,38.2,11.41
-M2,0.81,0.66,6,42.4,12.47
-M3,0.68,0.46,3,60.2,16.09
 
 ### Step 2: Run the Script
 To run the script, use the following command in the terminal:
