@@ -35,3 +35,6 @@ results.csv is the file where the results will be saved (e.g., results.csv).
 ### Step 3: Output
 The output will be a CSV file with the calculated TOPSIS scores and ranks for each alternative.
 ...
+
+## Link to my package
+### https://pypi.org/project/Topsis-Paras-102203836/
