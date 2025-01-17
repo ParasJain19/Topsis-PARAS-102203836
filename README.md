@@ -22,10 +22,15 @@ python <your-script-name>.py <input-file> <weights> <impacts> <output-file>
 Example:
 python topsis.py data.csv "1,1,1,2,1" "+,+,-,+,-" results.csv
 Where:
+
 <your-script-name>.py is the name of the script file (e.g., topsis.py).
+
 <input-file> is your input CSV file (e.g., data.csv).
+
 <weights> is a comma-separated string of weights for each criterion (e.g., "1,1,1,2,1").
+
 <impacts> is a comma-separated string of impacts for each criterion (e.g., "+,+,-,+,-").
+
 <output-file> is the file where the results will be saved (e.g., results.csv).
 
 ### Step 3: Output
