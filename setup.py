@@ -7,8 +7,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='Topsis-Paras-102203836',
     packages=find_packages(),
-    version='1.0.3',
-    description='Calculate TOPSIS score and rank alternatives.',
+    version='1.0.4',
+    description='A Python package for TOPSIS',
     long_description=long_description,  
     long_description_content_type='text/markdown',  
     author='Paras Jain',
